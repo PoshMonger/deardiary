@@ -1,0 +1,194 @@
+
+
+* {
+    box-sizing: border-box;
+
+}
+.white{color:white !important;
+border-color:white !important;
+}
+
+
+html {
+    padding: 0px;
+    margin: 0;
+
+}
+
+:root {
+
+    --navBar-height:fit-content;
+  
+
+        margin-top: 0px !important;
+        width: 100%;
+    }
+
+/* Nav Bar*/
+.navbar {
+    height: var(--navBar-height);
+    width: 100%;
+    border-bottom: solid 1px black;
+padding:20px !important;
+margin-bottom: 200px !important;
+
+}
+.logo{
+
+
+    width:10% !important;
+    margin-right:10px;
+}
+.logo-img{
+
+    height:fit-content;
+    width:60%;
+    margin-right:10px;
+}
+.navbar .logo {
+
+    font-size:2.5vw !important;
+}
+.navbar-brand{
+    width:40% !important
+}
+nav.navbar .navbar-brand div{cursor: pointer;
+width:25% !important;}
+
+.lightmode {
+    background-color: transparent !important;
+
+    margin-left: 10px
+}
+/* Home */
+
+.home {
+  
+    width: 100%;
+    height:200vh;
+    padding:10%;
+    padding-top: 20%;
+    
+
+}
+/*About*/
+
+.about{
+    width:100%;
+    padding:10%;
+    height:140vh;
+   padding-top:25%;
+
+}
+/* Details*/
+
+.details{
+height:150vh;
+    padding:10%;
+}
+
+
+/*Login Form*/
+
+.login-container{
+
+    display: flex;
+    flex-direction: column;
+
+
+       padding-top:200px;
+       height:100vh;
+       width: 100vw !important;
+    
+
+
+}
+
+.login-container input,button{
+
+margin-bottom:2%
+}
+
+.login-container button{
+
+    margin-bottom:2%
+    }
+.login-container button{
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    width:50%;
+    
+}
+.login-form{
+display: flex;
+flex-direction: column;
+justify-content: space-between !important;
+width:50%;
+margin-left:auto;
+margin-right:auto
+}
+.login-form button{
+
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between !important;
+    
+}
+
+.register-form button{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    display: flex;
+}
+
+/* Update Form */
+
+.updateForm{
+
+    margin-top:200px !important;
+
+
+}
+
+/*Add Album */
+
+
+
+
+
+
+@media (min-width:100px) and (max-width:400px) {
+*{
+    font-size: 1.5vw}
+  
+  
+}
+
+@media (min-width:401px) and (max-width:767px) {
+
+    *{
+        font-size: 2vw}
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+
+  
+
+
+
+
+}
+

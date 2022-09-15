@@ -1,0 +1,50 @@
+
+
+GET http://localhost:3001/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYzE5NzA4NWItOTRkOC00YzQ2LTk3ODktNzQzOGJiOWY3NmE1IiwidXNlcl9uYW1lIjoiam9lIiwidXNlcl9lbWFpbCI6ImhpYjQ0cmVoQGdtYWlsLmNvbSIsInVzZXJfb25saW5lIjp0cnVlLCJpYXQiOjE2NjAyMzY4NTMsImV4cCI6MTY2MDIzNzE1M30.famw0HHLKZssSyuqOPdlEDLBvBgnzbwZ6JyhFytvifs
+
+
+###
+
+
+
+POST  http://localhost:3001/users/create
+Content-Type: application/json
+
+{
+
+    "name": "joe",
+    "email":"hi@gmail.com",
+    "online":false,
+    "password":"yea"
+ 
+}
+
+###
+POST  http://localhost:3001/users/login
+Content-Type: application/json
+
+
+{
+    "email":"hib44reh@gmail.com",
+    "password":"yea"
+ 
+}
+###
+POST http://localhost:3001/albums/add
+Content-Type: application/json 
+
+{
+
+    
+}
+
+
+
+
+
+###
+GET http://localhost:3001/users/refresh_token
+
+###
+DElETE http://localhost:3001/users/refresh_token
